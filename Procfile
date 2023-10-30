@@ -1,1 +1,1 @@
-web: python manage.py migrate && python manage.py collectstatic && gunicorn photoshare.wsgi.
+web: python manage.py migrate && python manage.py collectstatic && gunicorn photoshare.wsgi
