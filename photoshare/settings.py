@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'photoshare.wsgi.application'
 
 
 # Database
-# https://docs.djangoproject.com/en/4.2/ref/settings/#databases
+# https://docs.djangoproject.com/en/4.2/ref/settings/#databaseSs
 
 DATABASES = {
     'default': dj_database_url.config(default="sqlite:///" 
